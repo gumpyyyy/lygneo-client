@@ -1,0 +1,14 @@
+rvm:
+  - 1.8.7
+  - ree
+  - 1.9.2
+  - 1.9.3
+
+before_install: gem install bundler --pre
+bundler_args: "--without development"
+script: "bundle exec rspec spec"
+
+notifications:
+  irc:
+    channels:
+      - 'irc.freenode.org:6667#diaspora-dev'

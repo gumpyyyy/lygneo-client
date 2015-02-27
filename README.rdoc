@@ -1,0 +1,36 @@
+= lygneo-client
+
+Lygneo Client is a gem that strives to make intergration into the Lygneo ecosystem a breeze.
+
+There are two steps to getting this gem setup in your application:
+
+1) To generate a keypair run:
+
+rake lygneo:generate_keys
+
+2) Package Your manifest file (setup in: config/initializers/lygneo_client.rb):
+
+rake lygneo:package_manifest
+
+
+For an Example check out:
+
+https://github.com/lygneo/Lygneo-Client-Sample
+
+
+== Contributing to lygneo-client
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+MIT License. Copyright (c) 2011 Lygneo Inc. http://blog.joinlygneo.com
+See MIT-LICENSE.txt for further details.
+
+
